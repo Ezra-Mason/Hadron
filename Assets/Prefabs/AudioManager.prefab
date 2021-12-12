@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4035486836129476668
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4035486836129476670}
+  - component: {fileID: 4035486836129476671}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4035486836129476670
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4035486836129476668}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4035486836129476671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4035486836129476668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2eba59695b6defc40adb5c5613558b9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Soundtrack
+    clip: {fileID: 8300000, guid: 474833427cdb7434b89ecffaeff62ca4, type: 3}
+    volume: 0.15
+    pitch: 1
+    source: {fileID: 0}
+    looping: 1
+  - name: Fire
+    clip: {fileID: 8300000, guid: 4b5d24864203a8445aa68208333b0eeb, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    looping: 0
+  - name: Damage
+    clip: {fileID: 8300000, guid: a364556593198a048ba2d7d17f1f6e88, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    looping: 0
+  - name: PickUp
+    clip: {fileID: 8300000, guid: 7c2d1c20111b42f41a8000303d00b92e, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    looping: 0
+  - name: Death
+    clip: {fileID: 8300000, guid: acb8b7c304834954fb63ff44b0407810, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    looping: 0
+  - name: Spawn
+    clip: {fileID: 8300000, guid: 1be2816acbb42b946877457a99801dfd, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    looping: 0
+  - name: EnemyHurt
+    clip: {fileID: 8300000, guid: a364556593198a048ba2d7d17f1f6e88, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    looping: 0
+  - name: SteelDrum
+    clip: {fileID: 8300000, guid: 57621f4772d3c3a47b291572cece9464, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    looping: 0
+  - name: Dying
+    clip: {fileID: 8300000, guid: 975fcff975ca34f49aac5e8c8a0fe67c, type: 3}
+    volume: 0.33
+    pitch: 1
+    source: {fileID: 0}
+    looping: 0
+  - name: Bounce
+    clip: {fileID: 8300000, guid: 07d8cae8f53bcfa42a8611f1b4b35e8f, type: 3}
+    volume: 0.33
+    pitch: 1
+    source: {fileID: 0}
+    looping: 0
+  - name: Click
+    clip: {fileID: 8300000, guid: 1f2022cd9dfe8ea47a852c767de65667, type: 3}
+    volume: 0.33
+    pitch: 1
+    source: {fileID: 0}
+    looping: 0
+  - name: Echoes
+    clip: {fileID: 8300000, guid: d1d01a0b311771b45bbca1019b29d509, type: 3}
+    volume: 0.66
+    pitch: 1
+    source: {fileID: 0}
+    looping: 0
+  - name: EnemyPickUp
+    clip: {fileID: 8300000, guid: 1cc8f3f812dcf0d488a0cd657d601cd8, type: 3}
+    volume: 0.66
+    pitch: 1
+    source: {fileID: 0}
+    looping: 0
